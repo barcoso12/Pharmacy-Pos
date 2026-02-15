@@ -3,6 +3,5 @@
     "outputDirectory": "apps/web/dist",
     "installCommand": "npm install",
     "framework": null,
-    "devCommand": "npx turbo run dev --filter=@pos/web",
-    "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/web"
+    "devCommand": "npx turbo run dev --filter=@pos/web"
 }
