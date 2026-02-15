@@ -3,5 +3,10 @@
     "outputDirectory": "apps/web/dist",
     "installCommand": "npm install",
     "framework": null,
-    "devCommand": "npx turbo run dev --filter=@pos/web"
+    "devCommand": "npx turbo run dev --filter=@pos/web",
+    "git": {
+        "deploymentEnabled": {
+            "main": true
+        }
+    }
 }
