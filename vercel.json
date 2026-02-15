@@ -1,9 +1,9 @@
 {
-    "buildCommand": "npx turbo run build --filter=@pos/web...",
+    "buildCommand": "turbo run build --filter=@pos/web...",
     "outputDirectory": "apps/web/dist",
     "installCommand": "npm install",
     "framework": null,
-    "devCommand": "npx turbo run dev --filter=@pos/web",
+    "devCommand": "turbo run dev --filter=@pos/web...",
     "ignoreCommand": "git diff --quiet HEAD~1 HEAD -- apps/web || exit 1",
     "git": {
         "deploymentEnabled": {
