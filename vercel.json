@@ -4,6 +4,7 @@
     "installCommand": "npm install",
     "framework": null,
     "devCommand": "npx turbo run dev --filter=@pos/web",
+    "ignoreCommand": "git diff --quiet HEAD^ HEAD -- ./apps/web || exit 1",
     "git": {
         "deploymentEnabled": {
             "main": true
